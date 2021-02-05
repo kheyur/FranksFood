@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2935694817003053554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2935694817003053556}
+  - component: {fileID: 2935694817003053555}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2935694817003053556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2935694817003053554}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2935694817003053555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2935694817003053554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3655d6bfe54ad0b4c94a87468f10946e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Max_Tier
+    clip: {fileID: 8300000, guid: 5b5b9f481b78cbc4384257d36a3f807f, type: 3}
+    volume: 0.246
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Notification_Bad
+    clip: {fileID: 8300000, guid: 03ec60d9dd053774b94eff05c502d78f, type: 3}
+    volume: 0.246
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Mouse_Click
+    clip: {fileID: 8300000, guid: 4204bbbd1ca0f824fb9fd27bb952989d, type: 3}
+    volume: 0.246
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Incremential
+    clip: {fileID: 8300000, guid: 42703c0b205aed641955d7b7693d7067, type: 3}
+    volume: 0.246
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Frank_01
+    clip: {fileID: 8300000, guid: 241d4e97a476cfe429d5888f81d92f72, type: 3}
+    volume: 0.246
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Frank_02
+    clip: {fileID: 8300000, guid: a962600d9fa5e004f80faa5c46db6c6a, type: 3}
+    volume: 0.246
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Frank_03
+    clip: {fileID: 8300000, guid: 5d35762b261648e4e8acbae9dd7d2445, type: 3}
+    volume: 0.246
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Frank_04
+    clip: {fileID: 8300000, guid: eacde4279920dd241ac29699337046ba, type: 3}
+    volume: 0.246
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Elevator_Bell
+    clip: {fileID: 8300000, guid: a6592e0568d69a84b8d5274d52af7960, type: 3}
+    volume: 0.246
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: ddf0f273942390840a46de7d00144944, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: CloseDesktop
+    clip: {fileID: 8300000, guid: 9699de43f481dba4ba0125514b642f60, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: OpenDesktop
+    clip: {fileID: 8300000, guid: 87dca569734b15a4780c92869460b70a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Elevator
+    clip: {fileID: 8300000, guid: 4c41609996fd25746b53aa697deb0b97, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Escape
+    clip: {fileID: 8300000, guid: ca876cde20f8f1543b5567899f888c09, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Incremential
+    clip: {fileID: 8300000, guid: 95430c937311f7743af3d2f3373662c3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuOpen
+    clip: {fileID: 8300000, guid: e2b8907da54514441bb30f04df3570eb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Options
+    clip: {fileID: 8300000, guid: 199b9857a33854e498ad8de350865711, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Drill
+    clip: {fileID: 8300000, guid: f0dfc381c7bc6614e8ab6a5ae4a13b8a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Hammer
+    clip: {fileID: 8300000, guid: f70f1b3035496a447bfbe1eae7f2600b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
